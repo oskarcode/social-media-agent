@@ -1,0 +1,22 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Typefully/API credentials should only live in shell env or untracked .env files
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# Dependencies/build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Pi runtime/session artifacts if added later
+.pi/cache/
+.pi/tmp/
+.pi/sessions/
